@@ -894,24 +894,24 @@ body {
   height: 100vh;
 }
 #home .home__container .home__img img {
-  height: 88%;
+  height: 80%;
   width: auto;
   position: absolute;
   z-index: 4;
 }
 #home .home__container .home__img .potrait-1 {
-  bottom: -5%;
-  left: 35%;
+  bottom: 10%;
+  left: 10%;
   transform: rotateY(-10deg);
 }
 #home .home__container .home__img .circle__background {
   position: absolute;
   z-index: 1;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
   left: 57%;
-  top: 12%;
+  top: 25%;
   transform: translateX(-50%);
   overflow: hidden;
   background-color: rgba(0, 49, 52, 0.6509803922);
@@ -1208,7 +1208,7 @@ body {
   width: 50%;
   height: 100%;
   margin: 0 auto;
-  background: url("https://www.linkpicture.com/q/IMG_8906.jpg") no-repeat center center;
+  background: url("/assets/img/portrait2.png") no-repeat center center;
   background-size: cover;
   z-index: 1;
   position: absolute;
@@ -1407,7 +1407,7 @@ body {
   background-size: cover;
 }
 #portfolio .portfolio__container #project3 {
-  background: url("https://www.linkpicture.com/q/ShoppingCartOnline.png") no-repeat top;
+  background: url("/assets/img/ShoppingCartOnline.png") no-repeat top;
   background-size: cover;
 }
 #portfolio .portfolio__container #project4 {
@@ -2391,8 +2391,6 @@ body {
   #resume .resume__container .resume__experience .resume__block .block__content h4 {
     font-size: 16px;
   }
-}
-@media screen and (max-width: 600px) {
   #resume .resume__container .resume__education .education__title .side-title {
     font-size: 1.8rem;
     transform: translate(-55%, 250%) rotate(-90deg);
@@ -2502,20 +2500,14 @@ body {
     background: url("../assets/img/honda-sm.jpg") no-repeat center top;
     background-size: cover;
   }
-}
-@media screen and (max-width: 600px) {
   #portfolio .portfolio__container #project2 {
     background: url("../assets/img/weather-site-sm-light.jpg") no-repeat center top;
     background-size: cover;
   }
-}
-@media screen and (max-width: 600px) {
   #portfolio .portfolio__container #project3 {
     background: url("../assets/img/portfolio-sm.jpg") no-repeat center top;
     background-size: cover;
   }
-}
-@media screen and (max-width: 600px) {
   #portfolio .portfolio__container .project .project__img {
     width: 75%;
   }
@@ -2545,8 +2537,6 @@ body {
   #portfolio .portfolio__container .project .project__detail .project__link .btn-demo {
     margin-left: 5px;
   }
-}
-@media screen and (max-width: 600px) {
   #portfolio .portfolio__container .pagination__config {
     bottom: 0;
   }
@@ -2578,8 +2568,6 @@ body {
     font-size: 13px;
     margin-bottom: 30px;
   }
-}
-@media screen and (max-width: 600px) {
   #footer .footer__form .footer__container .footer__info {
     margin-bottom: 20px;
     padding: 0;
@@ -2598,8 +2586,6 @@ body {
   #footer .footer__form .footer__container .footer__info ul li a {
     font-size: 12px;
   }
-}
-@media screen and (max-width: 600px) {
   #footer .footer__form .footer__container .footer__send form .form-group input {
     font-size: 12px;
   }
@@ -2612,8 +2598,6 @@ body {
   #footer .footer__form .footer__container .footer__send form .btn-submit {
     font-size: 12px;
   }
-}
-@media screen and (max-width: 600px) {
   #footer .footer__copyright {
     display: block;
     padding: 20px 0;
